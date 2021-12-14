@@ -16,9 +16,9 @@ function func1() {
 }
 
 func1()
-  .then(function () {
+  .then(function () {                               //functiom inside then is - resolve()
     console.log("thanks for resolving");
   })
   .catch(function () {
-    console.log("not resolved but rejected");
+    console.log("not resolved but rejected");       // //functiom inside catch is - reject()
   });
